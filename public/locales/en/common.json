@@ -44,6 +44,13 @@
         ]
       },
       {
+        "title": "Infinite Power - Mobile Developer",
+        "duration": "Mar 2020 - July 2020",
+        "tasks": [
+          "Worked in the implementation of the Android version of a meditation and habits app mvp, improving existing modules of previous codebase, adding new flows based on new requirements .Key Technologies: ES7, React Native, Rest API"
+        ]
+      },
+      {
         "title": "Girolabs - Software Developer",
         "duration": "Dec 2018 - Oct 2020",
         "tasks": [
