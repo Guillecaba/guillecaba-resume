@@ -1,0 +1,73 @@
+{
+  "work-history": {
+    "title": "Work history",
+    "positions": [
+      {
+        "title": "CareNexio - Full Stack Software Developer",
+        "duration": "October 2022 - Present",
+        "tasks": [
+          "Implemented from scratch the layout and the reusable components for the platform based on a custom design at the web application",
+          "Developed modules for platform & hospital admins to display and handle shifts for positions at hospitals at the web application",
+          "Allowed nurses to schedule, reschedule and cancel an interview from the mobile app powered with calendly."
+        ]
+      },
+      {
+        "title": "Willdom - Software Developer",
+        "duration": "Apr 2020 - Present",
+        "tasks": [
+          "Through Willdom, worked as part of the team of different software projects such as Poverty Stoplight with Fundacion Paraguaya, Whatta for the South Atlantic Packaging Corporation and Carenexio"
+        ]
+      },
+      {
+        "title": "South Atlantic Packaging Corporation - Software Developer",
+        "duration": "Apr 2022 - Sep 2022",
+        "tasks": [
+          "I worked for South Atlantic Packaging through Willdom as a software engineer",
+          "Developed solutions as a Full Stack Developer for a labor/time tracking and corresponding daily P&L reporting platform.",
+          "Implemented from scratch the reusable and basic components of the layout as React Components based on the designs provided.",
+          "Integrate the AWS Amplify authentication flow & AWS Cognito to the platform to enable secure login.",
+          "Developed the modules of users, agencies, workers, locations etc which are operating entities of the process to be digitized in the industry."
+        ]
+      },
+      {
+        "title": "Poverty Stoplight - Frontend & Mobile Developer",
+        "duration": "Apr 2020 - Apr 2022",
+        "tasks": [
+          "I worked for Poverty Stoplight through Willdom as a Frontend & Mobile Developer.",
+          "Worked with ReactJS, Material UI to create frontend solutions for the web application that take surveys and manage the entire diagnostic flow to combat economic poverty in families according to the poverty stoplight methodology.",
+          "Adapted the project to run on a large number of devices and in inhospitable conditions such as low internet and connectivity.",
+          "Loaded survey structures to the database using SQL queries.",
+          "Improved the existing flow & added new features to the mobile app for taking survey including geolocation, taking pictures, download pdf report & managing/ sync families at online/offline environments",
+          "Based on the codebase of the Android version, made the required integrations & missing configurations of the libraries for its correct operation in IOS.",
+          "Implementation of style and behavior fixes for existing components released on Android version pointing to the IOS version.",
+          "Monitoring of the entire process of publishing and launching the app in the Appstore, taking into account the feedback received from Apple reviewers to comply with their policies."
+        ]
+      },
+      {
+        "title": "Girolabs - Software Developer",
+        "duration": "Dec 2018 - Oct 2020",
+        "tasks": [
+          "Schoenstatt Fathers social app. In charge of the design, management and implementation of a mobile application which serves as a social network for the community of priests of Schoenstatt worldwide.Key technologies: React Native, Expo Framework, React Hooks, Context API, with support for I18n, REST API, Android & IOS",
+          "Designed and managed implementation of a web application to display information about the 2020 national budget and take simple surveys of the opinion of citizens.Technologies used: ES7, ReactJS, Django Rest Framework, PostgreSQL, Bootstrap.",
+          "Designed and managed implementation of new features and maintenance of a web application that allows customers to choose the garments they want to try on and these are taken to the fitting rooms where they are in the store. Technologies used: ES7, ReactJS, Django Rest Framework, PostgreSQL, Django Channels, Style Components, GraphQL, integration with shopify.",
+          " Designed and managed implementation of new features and maintenance of a web application that allows entrepreneurs to interact with the existing supply and demand in the entrepreneurial environment. Technologies used: Typescript, Angular, Django Rest Framework, PostgreSQL, Bootstrap."
+        ]
+      }
+    ]
+  },
+  "showcase": {
+    "title": "Showcase",
+    "description": "Some of the projects i was part of:"
+  },
+  "skills": {
+    "title": "Skills",
+    "content": [
+      "Experience in  cross-platform mobile development with React Native",
+      "Comfortable working with React in building web platforms",
+      "Intermediate level of English, to talk, discuss, read and write",
+      "Use UI tools like Material UI and React-bootstrap, style solutions like SCSS, Styled Components, Emotion, CSS modules and CSS",
+      "Familiar to work with designs provided in UI tools such as Figma, InVision",
+      "Able to interact with REST & GRAPHQL API, and use tools like Postman"
+    ]
+  }
+}
