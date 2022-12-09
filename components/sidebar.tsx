@@ -1,3 +1,5 @@
+import { Icon } from "@iconify-icon/react";
+
 const Sidebar = () => {
   return (
     <aside className="space-y-4 lg:w-full ">
@@ -12,12 +14,30 @@ const Sidebar = () => {
         <p>
           Developer with almost 4 years of experience providing web and mobile
           solutions.For the last years, i have been working with Javascript
-          technologies  as a Frontend with ReactJS and React Native.
+          technologies as a Frontend with ReactJS and React Native.
         </p>
         <p>
-        Curious, and proactive developer, always eager for learning new
+          Curious, and proactive developer, always eager for learning new
           things.
         </p>
+      </section>
+      <section id="socials" className="space-x-4 text-2xl">
+        <a
+          href="https://www.linkedin.com/in/guillecaba/"
+          rel="noopener noreferrer"
+          target="_blank"
+          aria-label="Redirect Linkedin"
+        >
+          <Icon icon="ion:logo-linkedin" alt="linkedin profile" />
+        </a>
+        <a
+          href="https://github.com/Guillecaba"
+          rel="noopener noreferrer"
+          target="_blank"
+          aria-label="Redirect to Github"
+        >
+          <Icon icon="ion:logo-github" alt="github profile" />
+        </a>
       </section>
     </aside>
   );

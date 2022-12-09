@@ -67,7 +67,13 @@
       "Intermediate level of English, to talk, discuss, read and write",
       "Use UI tools like Material UI and React-bootstrap, style solutions like SCSS, Styled Components, Emotion, CSS modules and CSS",
       "Familiar to work with designs provided in UI tools such as Figma, InVision",
-      "Able to interact with REST & GRAPHQL API, and use tools like Postman"
+      "Able to interact with REST & GRAPHQL API, and use tools like Postman",
+      "Currently leveraging the benefits of Typescript in the development experience",
+      "Knowledge of relational databases and RDBMS such as Postgresql",
+      "Use of meta-frameworks such as Nextjs based on ReactJS for the development from scratch to MVP of web platforms",
+      "Experience working with frameworks like NestJs and ORM like Prisma for the development of services",
+      "Use libraries like React-Query, Axios and Apollo client for data fetching and others in React apps",
+      "State management using Context API and Redux in React based platforms"
     ]
   }
 }

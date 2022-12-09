@@ -1,3 +1,4 @@
+import { Icon } from "@iconify-icon/react";
 import { GetStaticProps } from "next";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -6,14 +7,13 @@ import Layout from "../components/layout";
 import Sidebar from "../components/sidebar";
 import Title from "../components/title";
 import { Position } from "../types/position";
-import { Icon } from "@iconify-icon/react";
 
 const Home = () => {
   const { t } = useTranslation();
 
   return (
     <Layout>
-      <div className=" w-full lg:w-1/4">
+      <div className="w-full lg:w-1/4">
         <Container>
           <Sidebar />
         </Container>
@@ -55,9 +55,12 @@ const Home = () => {
                       href="https://apps.apple.com/py/app/schoenstatt-fathers/id1529143700"
                       rel="noopener noreferrer"
                       target="_blank"
-                      aria-label="Redirect to Apple Appstore">
-                    
-                      <Icon icon="ion:logo-apple-appstore" alt="apple appstore" />
+                      aria-label="Redirect to Apple Appstore"
+                    >
+                      <Icon
+                        icon="ion:logo-apple-appstore"
+                        alt="apple appstore"
+                      />
                     </a>
                     <a
                       href="https://play.google.com/store/apps/details?id=com.schoenstatt.fathersApp"
@@ -65,7 +68,10 @@ const Home = () => {
                       target="_blank"
                       aria-label="Redirect to Playstore"
                     >
-                      <Icon icon="ion:logo-google-playstore" alt="google playstore" />
+                      <Icon
+                        icon="ion:logo-google-playstore"
+                        alt="google playstore"
+                      />
                     </a>
                   </div>
                 </div>
@@ -82,7 +88,10 @@ const Home = () => {
                       target="_blank"
                       aria-label="Redirect to Apple Appstore"
                     >
-                      <Icon icon="ion:logo-apple-appstore" alt="apple appstore" />
+                      <Icon
+                        icon="ion:logo-apple-appstore"
+                        alt="apple appstore"
+                      />
                     </a>
                     <a
                       href="https://play.google.com/store/apps/details?id=com.povertystoplightapp&hl=en&gl=US"
@@ -90,7 +99,10 @@ const Home = () => {
                       target="_blank"
                       aria-label="Redirect to Playstore"
                     >
-                      <Icon icon="ion:logo-google-playstore"  alt="google playstore" />
+                      <Icon
+                        icon="ion:logo-google-playstore"
+                        alt="google playstore"
+                      />
                     </a>
                   </div>
                 </div>
