@@ -80,7 +80,9 @@
       "Use of meta-frameworks such as Nextjs based on ReactJS for the development from scratch to MVP of web platforms",
       "Experience working with frameworks like NestJs and ORM like Prisma for the development of services",
       "Use libraries like React-Query, Axios and Apollo client for data fetching and others in React apps",
-      "State management using Context API and Redux in React based platforms"
+      "State management using Context API and Redux in React based platforms",
+      "Use AWS services like Cognito and Amplify to work with authentication module & image upload  to S3",
+      "Take advantage of Hasura Graphql Engine to get a Graphql API and other benefits already included which speeded up my process"
     ]
   }
 }
