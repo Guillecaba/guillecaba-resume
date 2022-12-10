@@ -12,7 +12,7 @@ const Sidebar = () => {
       <section id="basic">
         <h2 className="font-semibold text-blue-800">About me</h2>
         <p>
-          Developer with almost 4 years of experience providing web and mobile
+          Developer with years of experience providing web and mobile
           solutions.For the last years, i have been working with Javascript
           technologies as a Frontend with ReactJS and React Native.
         </p>

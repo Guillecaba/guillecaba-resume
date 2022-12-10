@@ -41,6 +41,21 @@ const Home = () => {
                 ))}
               </div>
             </section>
+            <section id="academic">
+              <Title>{t("academic.title")}</Title>
+              <h3 className="font-semibold">{t("academic.description")}</h3>
+              <p>
+                <small>{t("academic.duration")}</small>
+              </p>
+              <ul className="list-disc list-inside">
+                {t<string, string[]>("academic.content", {
+                  returnObjects: true,
+                }).map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </section>
+
             <section id="showcase">
               <Title>{t("showcase.title")}</Title>
               <p>{t("showcase.description")}</p>

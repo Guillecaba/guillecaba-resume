@@ -62,6 +62,15 @@
       }
     ]
   },
+  "academic": {
+    "title": "Academic background",
+    "description":"Computer Engineering at Polytechnic Faculty, UNA - Asunción, Paraguay",
+    "duration": "2015-2019",
+    "content": [
+      "Foundations in basic sciences such as discrete mathematics, differential and integral calculus and probabilities and statistics.",
+      "Broad core foundation of computer science fundamentals: algorithms and data structure, operating systems, databases, programming languages, organization, architecture of computers and networks and software engineering."
+    ]
+  },
   "showcase": {
     "title": "Showcase",
     "description": "Some of the projects i was part of:"
