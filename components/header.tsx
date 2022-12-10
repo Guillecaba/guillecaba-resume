@@ -4,14 +4,14 @@ import useDarkMode from "../hooks/useDarkMode";
 
 const Header = () => {
   const [isDark, setIsDark] = useDarkMode();
+  const title = "Guillermo Caballero / Software Developer";
+  const description =
+    "Software Developer, with knowledge in the stack of technologies for the construction of web and mobile experiences, specialized in Frontend";
   return (
     <>
       <Head>
-        <title>{"Guillermo Caballero / Software Developer"}</title>
-        <meta
-          name="description"
-          content="Software Developer, with knowledge in the stack of technologies for the construction of web and mobile experiences, specialized in Frontend"
-        />
+        <title>{title}</title>
+        <meta name="description" content={description} />
 
         <link
           rel="apple-touch-icon"
@@ -34,12 +34,20 @@ const Header = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <meta name="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content="https://www.guillecaba.com" />
+        <meta name="twitter:card" content="summary"></meta>
       </Head>
       <header
         className="flex pt-4 justify-end text-2xl
      max-w-5xl mx-auto px-6 lg:px-8 "
       >
-        <button onClick={() => setIsDark(!isDark)} id="dark mode toggle" aria-label="dark mode toggle">
+        <button
+          onClick={() => setIsDark(!isDark)}
+          id="dark mode toggle"
+          aria-label="dark mode toggle"
+        >
           <Icon
             icon={
               isDark
