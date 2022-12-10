@@ -39,13 +39,14 @@ const Header = () => {
         className="flex pt-4 justify-end text-2xl
      max-w-5xl mx-auto px-6 lg:px-8 "
       >
-        <button onClick={() => setIsDark(!isDark)}>
+        <button onClick={() => setIsDark(!isDark)} id="dark mode toggle" aria-label="dark mode toggle">
           <Icon
             icon={
               isDark
                 ? "material-symbols:light-mode-outline"
                 : "material-symbols:dark-mode-outline"
             }
+            alt="dark ligth mode button"
           />
         </button>
       </header>
