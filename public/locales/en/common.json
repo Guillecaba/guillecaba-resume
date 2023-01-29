@@ -3,19 +3,18 @@
     "title": "Work history",
     "positions": [
       {
-        "title": "CareNexio - Full Stack Software Developer",
+        "title": "Early Stage Startup - Full Stack Software Developer",
         "duration": "October 2022 - Present",
         "tasks": [
           "Implemented from scratch the layout and the reusable components for the platform based on a custom design of the web application",
-          "Developed modules for platform & hospital admins to display and handle shifts for positions at hospitals on the web application",
-          "Allow nurses to schedule, reschedule and cancel an interview from the mobile app powered with calendly."
+          "Developed modules for platform & hospital admins to display and handle shifts for positions at hospitals on the web application"
         ]
       },
       {
         "title": "Willdom - Software Developer",
         "duration": "Apr 2020 - Present",
         "tasks": [
-          "Through Willdom, worked as part of the team of different software projects such as Poverty Stoplight with Fundacion Paraguaya, Whatta for the South Atlantic Packaging Corporation and Carenexio"
+          "Through Willdom, worked as part of the team of different software projects such as Poverty Stoplight with Fundacion Paraguaya, Whatta for the South Atlantic Packaging Corporation and other"
         ]
       },
       {
