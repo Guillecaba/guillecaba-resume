@@ -129,7 +129,7 @@ const Home = () => {
                   </p>
                   <div className="text-lg space-x-4">
                     <a
-                      href="https://whatta.dev.wheelhousepackaging.com/checkin"
+                      href="https://whatta.demo.wheelhousepackaging.com/checkin"
                       rel="noopener noreferrer"
                       target="_blank"
                       aria-label="Redirect to website of checkin whatta"
